@@ -14,7 +14,7 @@ function Contact() {
         </div>
         <InlineWidget url="https://calendly.com/shakilmansuri/weblanch-initial-discussion" />
       </div>
-      <div id="contact" className="contact-details-section">
+      <div className="contact-details-section">
         <div className="contact-us-section">
           <div className="contact-us-call">
             <div className="contact-method">
@@ -39,7 +39,7 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="company-section">
+        <div id="contact" className="company-section">
           <div className="address-section">
             B304, Kalpataru Vihar, Indore, Madhya Pradesh, India, 452001
           </div>

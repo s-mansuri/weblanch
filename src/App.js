@@ -18,7 +18,7 @@ function App() {
       <hr className="section-separate-line" />
       <About />
       <hr className="section-separate-line" />
-      <Contact id="contact" />
+      <Contact />
     </div>
   );
 }
