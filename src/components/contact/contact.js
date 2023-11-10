@@ -25,7 +25,7 @@ function Contact() {
           <div className="contact-us-call">
             <div className="contact-method">
               <CallIcon />{" "}
-              <span className="contact-method-detail">+91-9669333088</span>
+              <span className="contact-method-detail">+91-9665163088</span>
             </div>
           </div>
           <div className="contact-us-email">
@@ -39,7 +39,7 @@ function Contact() {
           <div className="contact-us-whatsapp">
             <div className="company-whatsapp-link contact-method">
               <WhatsAppIcon />
-              <a href="https://wa.me/919669333088" target="_blank">
+              <a href="https://wa.me/919665163088" target="_blank">
                 <span className="contact-method-detail">Message</span>
               </a>
             </div>
