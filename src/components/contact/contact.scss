@@ -1,0 +1,168 @@
+.main-contact-section {
+  background-color: $bgColor;
+  color: $fontColor;
+}
+
+.calendly-meeting-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.calendly-inline-widget {
+  height: 670px !important;
+}
+
+.contact-us-section {
+  padding-top: 2rem !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  margin-bottom: 2rem;
+}
+
+.contact-method-detail {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: $fontColor !important;
+}
+
+.company-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+}
+
+.address-section {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 30%;
+  text-align: center;
+}
+
+.contact-details-section {
+  background-image: url("../../assets//bgImages/bgContact.jpg");
+  background-size: cover;
+  color: $mainFontColor;
+}
+
+.company-whatsapp-link {
+  padding: 0 2rem;
+  font-size: 0.8rem;
+  border-radius: 15px;
+  background-color: $mainBgColor;
+  color: $bgColor;
+  border: 1px solid $BtnBorderColor;
+}
+
+.company-whatsapp-link:hover {
+  background-color: $mainFontColor;
+  color: $BtnBorderColor !important;
+  border: 1px solid $BtnBorderColor;
+}
+
+.company-whatsapp-link > a {
+  color: $bgColor !important;
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.company-whatsapp-link > a:hover {
+  color: $BtnBorderColor !important;
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.company-meeting-link {
+  padding: 0 2rem;
+  font-size: 0.8rem;
+  border-radius: 15px;
+  color: $bgColor;
+}
+
+.company-meeting-link:hover {
+  color: $fontColor !important;
+  .company-meeting-link > {
+    color: $bgColor !important;
+  }
+}
+
+.company-meeting-content {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.company-meeting-link > a {
+  color: $bgColor !important;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.company-meeting-link > a:hover {
+  color: $BtnBorderColor !important;
+}
+
+@media screen and (max-width: "900px") {
+  .calendly-meeting-title {
+    font-size: 1rem;
+  }
+
+  .calendly-inline-widget {
+    min-height: 500px;
+  }
+
+  .contact-us-section {
+    flex-direction: column;
+    margin-bottom: 0.4rem;
+    & > div {
+      text-align: center;
+    }
+  }
+
+  .contact-us-email {
+    margin-top: 1rem;
+  }
+
+  .company-section {
+    flex-direction: row;
+    padding: 0 1rem;
+  }
+
+  .contact-method > svg {
+    font-size: 1rem;
+  }
+
+  .contact-method-detail {
+    font-size: 1rem;
+  }
+
+  .company-whatsapp-link {
+    margin-top: 1rem;
+  }
+
+  .address-section {
+    font-size: 0.6rem;
+    color: $mainFontColor;
+  }
+
+  .company-meeting-link > a {
+    font-size: 0.6rem;
+  }
+
+  .contact-us-email > div > svg,
+  .contact-us-email > div > span {
+    color: $mainBgColor;
+  }
+}

@@ -1,0 +1,29 @@
+.main-navbar {
+  background-color: $navbarBgColor;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-logo {
+  text-decoration: none;
+  color: $navbarFontColor;
+  vertical-align: middle;
+}
+
+.navbar-contact-btn {
+  color: $BtnFontColor;
+  border: 1px solid $BtnBorderColor;
+  padding: 0.5rem 1.8rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-contact-btn:hover {
+  color: $BtnBorderColor;
+  background-color: $BtnFontColor;
+  border: 1px solid $BtnBgColor;
+}

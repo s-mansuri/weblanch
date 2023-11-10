@@ -1,0 +1,31 @@
+.main-services-section {
+  background-color: $bgColor;
+  color: $fontColor;
+  padding: 4rem;
+}
+
+.service-section-1 {
+  text-align: center;
+}
+
+.service-section-2 {
+  text-align: center;
+}
+
+@media screen and (max-width: "900px") {
+  .main-services-section {
+    flex-direction: column;
+    padding: 1rem 1rem;
+  }
+
+  .service-section-1 {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .service-section-2 {
+    width: 100%;
+    border-top: 1px solid $mainBgColor;
+    padding: 1rem 0;
+  }
+}

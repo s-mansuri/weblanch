@@ -1,0 +1,22 @@
+@import "./global";
+@import "./components/navbar/navbar";
+@import "./components/home/details/details.scss";
+@import "./components/home/founders/founders.scss";
+@import "./components/services/contactform.scss";
+@import "./components/services/services.scss";
+@import "./components/about/about.scss";
+@import "./components/contact/contact.scss";
+
+body {
+  /* background-image: url("../public/main_bg.jpg"); */
+  background-size: cover;
+}
+
+.section-separate-line {
+  border: 0;
+  margin: 0;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  background: inherit;
+}

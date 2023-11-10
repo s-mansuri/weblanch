@@ -1,0 +1,8 @@
+$mainFontFamily: "Montserrat", sans-serif;
+
+body {
+  margin: 0;
+  font-family: $mainFontFamily;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

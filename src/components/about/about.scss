@@ -1,0 +1,96 @@
+.main-about-section {
+  background-image: url("../../assets/bgImages/bgAbout.webp");
+  color: $mainFontColor;
+  background-size: cover;
+}
+
+.about-title {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.about-subtitle {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+
+.parent-application-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 6rem;
+}
+
+.main-application-section {
+  background-color: $mainBgColor;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 30%;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid $BtnBorderColor;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image-section {
+  min-width: 15rem;
+  min-height: 15rem;
+  max-width: 15rem;
+  max-height: 15rem;
+  border-radius: 10px;
+}
+
+.application-name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.hr-line-application {
+  border-top: 1px solid $BtnBorderColor;
+  width: 80%;
+}
+
+.last-flex {
+  margin: auto;
+  margin-bottom: 0.5rem;
+  & > div > img {
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: "900px") {
+  .about-title {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+  }
+
+  .about-subtitle {
+    font-size: 1rem;
+  }
+
+  .parent-application-section {
+    margin: 0 3.5rem;
+  }
+
+  .main-application-section {
+    padding: 0.5rem;
+  }
+
+  .image-section {
+    min-width: 6rem;
+    min-height: 5rem;
+    max-width: 2rem;
+    max-height: 5rem;
+  }
+
+  .application-name {
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
+}

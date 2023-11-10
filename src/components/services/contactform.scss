@@ -1,0 +1,43 @@
+.form-label {
+  display: block;
+  font-size: 0.9rem;
+}
+
+.form-input {
+  border: 1px solid $bgColor;
+  border-radius: 0.4rem;
+  width: 30rem;
+  padding: 0.4rem;
+  margin-bottom: 0.45rem;
+}
+
+.form-input:focus {
+  border: 2px solid $bgColor;
+}
+
+.form-button {
+  width: 30rem;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: $bgColor;
+  color: $BtnBorderColor !important;
+  border: 1px solid $fontColor;
+  font-weight: bold;
+}
+
+.form-button:hover {
+  border: 2px solid $BtnBorderColor;
+  color: $mainFontColor !important;
+  background: $mainBgColor;
+}
+
+@media screen and (max-width: "900px") {
+  .form-input {
+    width: 18rem;
+  }
+
+  .form-button {
+    width: 18rem;
+  }
+}

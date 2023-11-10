@@ -1,0 +1,62 @@
+.founder-section {
+  background-color: $mainBgColor;
+  color: $mainFontColor;
+  text-align: center;
+}
+
+.founder-image {
+  max-width: 12rem;
+  max-height: 11rem;
+  min-height: 11rem;
+  border-radius: 50%;
+}
+
+.team-meet-section {
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 0.4;
+}
+
+.founder-name {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.founder-designation {
+  font-size: 0.9rem;
+}
+
+.team-description-section {
+  width: 80%;
+  margin: auto;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: "900px") {
+  .founder-images-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .founder-images-section :nth-child(1) {
+    order: 2;
+  }
+  .founder-images-section :nth-child(2) {
+    order: 1;
+  }
+
+  .founder-images-section :nth-child(3) {
+    order: 3;
+  }
+
+  .founder-item {
+    padding-bottom: 1rem;
+  }
+
+  .team-description-section {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+}

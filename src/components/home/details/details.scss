@@ -1,0 +1,58 @@
+.main-details-section {
+  // background-color: $bgColor;
+  background-image: url("../../../assets/bgImages/BgDetails.avif");
+  background-position: center;
+  background-size: cover;
+  color: $mainFontColor;
+  height: 30rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.details-subsection-1 {
+  font-size: 2rem;
+}
+
+.details-subsection-2 {
+  font-weight: bold;
+}
+
+.details-subsection-3 {
+  font-weight: bold;
+}
+
+.main-icons-section {
+  margin: 3rem 0;
+}
+
+.section-icon {
+  font-size: 4rem !important;
+}
+
+@media screen and (max-width: "900px") {
+  .main-details-section {
+    max-height: 25rem;
+  }
+
+  .details-subsection-1 {
+    font-size: 1rem;
+  }
+
+  .details-subsection-2 {
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+
+  .details-subsection-3 {
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+
+  .main-icons-section {
+    margin: 1rem 0;
+  }
+
+  .design-icon-section {
+    font-size: 1rem;
+  }
+}
