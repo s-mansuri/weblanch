@@ -11,7 +11,7 @@ function Founders() {
         <div className="founder-item">
           <img className="founder-image" src={Iliyas} />
           <div className="founder-name">Iliyas</div>
-          <div>Co-Founder & MD</div>
+          <div className="founder-designation">Co-Founder & MD</div>
         </div>
         <div className="founder-item">
           <img className="founder-image" src={Shakil} />
@@ -21,7 +21,7 @@ function Founders() {
         <div className="founder-item">
           <img className="founder-image" src={Nadim} />
           <div className="founder-name">Nadim</div>
-          <div>SVP Engineering</div>
+          <div className="founder-designation">SVP Engineering</div>
         </div>
       </div>
       <div className="mt-4 p-4 team-description-section">

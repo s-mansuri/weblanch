@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { InlineWidget } from "react-calendly";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
@@ -6,6 +6,12 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import GroupsIcon from "@mui/icons-material/Groups";
 
 function Contact() {
+  useEffect(() => {
+    setTimeout(() => {
+      const el1 = document.querySelector("[data-id='branding']");
+      console.log(el1);
+    }, 3000);
+  }, []);
   return (
     <div className="main-contact-section">
       <div className="calendly-meeting-section">
