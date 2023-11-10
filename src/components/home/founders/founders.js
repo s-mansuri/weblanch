@@ -25,7 +25,7 @@ function Founders() {
         </div>
       </div>
       <div className="mt-4 p-4 team-description-section">
-        Our team comprises a talented group of 46 developers, each specializing
+        Our team comprises a talented group of 50+ developers, each specializing
         in key areas such as UI/UX Design, Web Development, Front End Mastery,
         Backend Wizardry, Full Stack Prowess, and Project Management. Together,
         we bring a diverse range of skills and expertise to the table, ensuring

@@ -10,8 +10,9 @@ function Details() {
         Web Development at its Finest
       </div>
       <div className="d-flex justify-content-center details-subsection-2">
-        Welcome to our lightning-fast creation! This website was born from the
-        ground up in just 2 hours. Witness the power of efficient design and
+        Welcome to WebLanch Technologies where we provide lightning-fast
+        creation and solution for web development! This website was born from
+        the ground up in just 2 hours. Witness the power of efficient design and
         development as we deliver a seamless and stylish online experience.
         Explore, enjoy, and marvel at what can be achieved in such a short span.
         Innovation meets speed right here!

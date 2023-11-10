@@ -7,14 +7,14 @@ import GroupsIcon from "@mui/icons-material/Groups";
 
 function Contact() {
   return (
-    <div id="contact" className="main-contact-section">
+    <div className="main-contact-section">
       <div className="calendly-meeting-section">
         <div className="calendly-meeting-title">
           Schedule a meeting for further discussion?
         </div>
         <InlineWidget url="https://calendly.com/shakilmansuri/weblanch-initial-discussion" />
       </div>
-      <div className="contact-details-section">
+      <div id="contact" className="contact-details-section">
         <div className="contact-us-section">
           <div className="contact-us-call">
             <div className="contact-method">
